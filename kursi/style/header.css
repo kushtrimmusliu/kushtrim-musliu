@@ -1,0 +1,33 @@
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header-navigation__list {
+  display: flex;
+  margin-right: 54px;
+  list-style-type: none;
+}
+
+.header-navigation__list a {
+  color: #2f281e;
+}
+
+.header-navigation li:not(:last-child) {
+  margin-right: 27px;
+}
+
+.header-navigation nav a {
+  color: #2f281e;
+  font-weight: normal;
+}
+
+.header-navigation .btn:not(:last-child) {
+  margin-right: 15px;
+}
